@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.lunarclient.Launcher</id>
+  <name>Lunar Client</name>
+  <summary>A modpack for all modern versions of Minecraft!</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <description>
+    <p>
+      A modpack for all modern versions of Minecraft!
+    </p>
+  </description>
+  <url type="homepage">https://lunarclient.com</url>
+  <launchable type="desktop-id">com.lunarclient.Launcher.desktop</launchable>
+  <content_rating type="oars-1.1" />
+  <releases>
+        <release version="2.7.5" date="2021-8-29">
+            <description>
+            	<p>Weather changer</p>
+              <p>
+                First flatpak release
+              </p>
+            </description>
+        </release>
+    </releases>
+</component>
