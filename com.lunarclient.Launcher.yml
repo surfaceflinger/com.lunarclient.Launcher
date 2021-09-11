@@ -11,7 +11,6 @@ rename-icon: lunarclient
 finish-args:
   - --persist=.minecraft
   - --persist=.lunarclient
-  - --share=ipc
   - --share=network
   - --device=dri
   - --socket=x11
