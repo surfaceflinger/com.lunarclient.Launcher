@@ -19,3 +19,5 @@ or just use .desktop file that should be already detected by your applications m
 ## schizo
 
 For max security you could prob swap glfw for wayland one and just use it on wayland or embed weston composer and run it on x11 while not giving lunar access to anything x11 related x
+
+![Screenshot](https://nekopon.pl/syf/lunarsandbox.png)
