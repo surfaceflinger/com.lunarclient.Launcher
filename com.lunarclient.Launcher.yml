@@ -36,8 +36,8 @@ modules:
       - type: file
         path: com.lunarclient.Launcher.desktop
     build-commands:
-      - chmod +x Lunar%20Client-2.8.4.AppImage
-      - ./Lunar%20Client-2.8.4.AppImage --appimage-extract
+      - chmod +x Lunar%20Client-2.10.1.AppImage
+      - ./Lunar%20Client-2.10.1.AppImage --appimage-extract
 
       - mkdir "${FLATPAK_DEST}/lunarclient"
       - cp -r squashfs-root/* "${FLATPAK_DEST}/lunarclient/"
