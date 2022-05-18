@@ -1,10 +1,10 @@
 app-id: com.lunarclient.Launcher
 runtime: org.freedesktop.Platform
-runtime-version: "20.08"
+runtime-version: "21.08"
 branch: stable
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: 20.08
+base-version: 21.08
 command: lunarclient
 separate-locales: false
 rename-icon: lunarclient
@@ -25,8 +25,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://launcherupdates.lunarclientcdn.com/Lunar%20Client-2.8.4.AppImage
-        sha256: 432c0705f0c281cecccf60296df9957e4895a1a4d14df7dbca5016d3038257f5
+        url: https://launcherupdates.lunarclientcdn.com/Lunar%20Client-2.10.1.AppImage
+        sha256: de1d8516920846d6ba844b1afc7d31a3cf8352f85d43206ff5da9d77fbe5c19e
       - type: script
         dest-filename: lunarclient
         commands:
