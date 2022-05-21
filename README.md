@@ -4,11 +4,8 @@
 
 1. Clone this repository: `git clone --recurse-submodules https://github.com/Morelcia/com.lunarclient.Launcher.git`
 2. Add flathub repository: `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-3. Install Freedesktop SDK with: `flatpak install flathub org.freedesktop.Sdk//20.08`
-4. Install Freedesktop Platform with: `flatpak install flathub org.freedesktop.Platform//20.08`
-5. Install Electron base with `flatpak install flathub org.electronjs.Electron2.BaseApp/x86_64/20.08`
-6. cd into cloned repo: `cd com.lunarclient.Launcher`
-7. Build and install package: `flatpak-builder --user --install ./lunar com.lunarclient.Launcher.yml --force-clean`
+3. cd into cloned repo: `cd com.lunarclient.Launcher`
+4. Build and install package: `flatpak-builder --user --install-deps-from=flathub --install ./lunar com.lunarclient.Launcher.yml --force-clean`
 
 ## How to run
 
